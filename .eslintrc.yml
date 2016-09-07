@@ -1,0 +1,14 @@
+extends:
+  - standard
+  - standard-react
+rules:
+  arrow-parens:
+    - 2
+    - as-needed
+  no-duplicate-imports: 0
+  padded-blocks: 0
+  no-return-assign: 0
+  react/prop-types: 0
+  react/jsx-curly-spacing:
+    - 2
+    - always
