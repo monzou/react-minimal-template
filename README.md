@@ -14,7 +14,7 @@ $ npm run build
 
 ## Branches
 
-- master: simple minimal template
+- master: minimal template
 - event-emitter: minimal template with event emitter
 
 ## License
