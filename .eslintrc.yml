@@ -9,6 +9,9 @@ rules:
   padded-blocks: 0
   no-return-assign: 0
   react/prop-types: 0
+  react/jsx-no-bind:
+    - 2
+    - allowArrowFunctions: true
   react/jsx-curly-spacing:
     - 2
     - always
