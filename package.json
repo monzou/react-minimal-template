@@ -1,7 +1,7 @@
 {
   "name": "react-minimal-template",
   "version": "1.0.0",
-  "description": "Minimal webpack setup for React",
+  "description": "A minimal webpack development setup for React",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --progress",
