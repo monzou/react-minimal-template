@@ -7,9 +7,9 @@ A minimal webpack development setup for React
 ```
 $ git clone https://github.com/monzou/react-minimal-template APP_NAME
 $ cd APP_NAME
-$ npm i
-$ npm run dev
-$ npm run build
+$ yarn
+$ yarn run dev
+$ yarn run build
 ```
 
 ## Branches
