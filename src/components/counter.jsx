@@ -1,23 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Counter extends Component {
+const Counter = ({ dispatch, count }) => (
+  <div onClick={ () => dispatch('increment', 1) }>
+    Clicks: { count }
+  </div>
+)
 
-  constructor (props) {
-    super(props)
-    this.state = { count: props.count }
-    this.increment = this.increment.bind(this)
-  }
-
-  increment () {
-    this.setState({ count: this.state.count + 1 })
-  }
-
-  render () {
-    return (
-      <div onClick={ this.increment }>
-        Clicks: {this.state.count}
-      </div>
-    )
-  }
-
-}
+export default Counter

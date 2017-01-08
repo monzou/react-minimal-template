@@ -12,11 +12,6 @@ $ yarn run dev
 $ yarn run build
 ```
 
-## Branches
-
-- master: minimal template
-- event-emitter: minimal template with event emitter
-
 ## License
 
 MIT License
